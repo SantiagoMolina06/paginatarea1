@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+
+    
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1616;
+    color: #f1eded;
+}
+
+
+
+
+
+/* Barra de navegación */
+nav {
+    
+        min-height: 50px;
+        background: linear-gradient(
+            90deg,
+            rgb(27, 16, 117)0%,
+            rgb(12, 69, 145)70%
+        );
+      
+    text-align: center;
+    padding:5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Contenedor de pestañas */
+.tab-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* Estilos para cada pestaña */
+.tab-pane {
+    display: none;
+    padding: 20px;
+}
+
+.tab-pane img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Mostrar la pestaña activa */
+.tab-pane.active {
+    display: block;
+}
+
+
+
+/* Estilos para los elementos de productos y servicios */
+.product-item, .service-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+.product-item img, .service-item img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Footer */
+footer {
+    text-align:center;
+    min-height: 40px;
+        background: linear-gradient(
+            90deg,
+            rgb(27, 16, 117)0%,
+            rgb(12, 69, 145)70%
+        );
+    color: #ffffff;
+    position:relative;
+    bottom: 0;
+    width:100%;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

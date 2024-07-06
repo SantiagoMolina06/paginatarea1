@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicidad de Fotografía</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido de las pestañas -->
+    <div class="tab-content">
+        <!-- Sección Index -->
+        <section id="index" class="tab-pane active">
+            <h1>Inicio - Publicidad de Fotografía</h1>
+            <p>Bienvenido a nuestra página de publicidad de fotografía. Aquí en <strong>Inicio</strong>, nos especializamos en crear campañas publicitarias impactantes utilizando la fotografía como medio principal. Nuestro objetivo es capturar la esencia y la emoción de cada momento, asegurando que tu mensaje llegue de manera efectiva a tu audiencia.</p>
+            <p>La fotografía es mucho más que capturar imágenes; es un arte que comunica, emociona y transmite mensajes poderosos. En cada foto, buscamos reflejar la personalidad y los valores de tu marca.</p>
+            <img src="https://img.hotimg.com/photo_2024-07-01_21-06-40.jpeg" alt="photo_2024-07-01_21-06-40.jpeg" border="0" />
+        </section>
+
+        <!-- Sección Productos -->
+        <section id="productos" class="tab-pane">
+            <h1>Productos</h1>
+            <p>Explora nuestra selección de productos diseñados para satisfacer las necesidades de cualquier campaña publicitaria fotográfica. Desde cámaras de alta resolución hasta accesorios de iluminación innovadores, cada producto está cuidadosamente seleccionado para ofrecer calidad y rendimiento excepcionales.</p>
+            <p>La calidad de una fotografía depende en gran medida del equipo utilizado. Nuestros productos están diseñados para ofrecer herramientas avanzadas que te permitan capturar cada detalle con precisión y claridad.</p>
+            <div class="product-item">
+                <img src="producto1.jpg" alt="Producto 1">
+                <p>Descripción del Producto 1</p>
+            </div>
+            <div class="product-item">
+                <img src="producto2.jpg" alt="Producto 2">
+                <p>Descripción del Producto 2</p>
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section id="servicios" class="tab-pane">
+            <h1>Servicios</h1>
+            <p>Descubre nuestros servicios especializados en publicidad fotográfica, diseñados para ayudarte a alcanzar tus objetivos de marketing de manera efectiva y creativa. Desde sesiones fotográficas personalizadas hasta la producción de contenido visual para redes sociales, nuestro equipo está listo para llevar tu marca al siguiente nivel.</p>
+            <p>La fotografía publicitaria va más allá de capturar imágenes; es crear historias visuales que conecten emocionalmente con tu audiencia. Nuestros servicios están diseñados para maximizar el impacto visual y comunicativo de tus campañas.</p>
+            <div class="service-item">
+                <img src="servicio1.jpg" alt="Servicio 1">
+                <p>Descripción del Servicio 1</p>
+            </div>
+            <div class="service-item">
+                <img src="servicio2.jpg" alt="Servicio 2">
+                <p>Descripción del Servicio 2</p>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="tab-pane">
+            <h1>Contacto</h1>
+            <p>Para más información sobre nuestros servicios o para discutir tu próximo proyecto fotográfico, no dudes en ponerte en contacto con nosotros. Completa el formulario a continuación y nos pondremos en contacto contigo a la brevedad posible.</p>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tu Empresa - Todos los derechos reservados</p>
+        <p>Santiago Molina Seccion:11 trayecto: 2-2</p>
+        <a href="index.html">Volver al inicio</a>
+    </footer>
+</body>
+</html>
